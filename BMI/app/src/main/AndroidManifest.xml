@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bmi" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hk_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".Start"
+            android:label="@string/title_activity_start" >
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+
+        <activity
+            android:name=".ReportActivity"
+            android:label="@string/title_activity_report" >
+        </activity>
+        <activity
+            android:name=".Stage_wts"
+            android:label="@string/title_activity_stage_wts" >
+        </activity>
+        <activity
+            android:name=".Stage_cwb"
+            android:label="@string/title_activity_stage_cwb" >
+        </activity>
+        <activity
+            android:name=".Stage_ct"
+            android:label="@string/title_activity_stage_ct" >
+        </activity>
+        <activity
+            android:name=".Stage_dl"
+            android:label="@string/title_activity_stage_dl" >
+        </activity>
+        <activity
+            android:name=".Stage_mkk"
+            android:label="@string/title_activity_stage_mkk" >
+        </activity>
+        <activity
+            android:name=".Stage_ymt"
+            android:label="@string/title_activity_stage_ymt" >
+        </activity>
+        <activity
+            android:name=".Report_Activity"
+            android:label="@string/title_activity_report_" >
+        </activity>
+        <activity
+            android:name=".Hiding_shoot_stage"
+            android:label="@string/title_activity_hiding_shoot_stage" >
+        </activity>
+        <activity
+            android:name=".Lesson"
+            android:label="@string/stage" >
+        </activity>
+        <activity
+            android:name=".ChatView"
+            android:label="@string/stage_1" >
+        </activity>
+        <activity
+            android:name=".Racecource"
+            android:label="@string/stage_1" >
+        </activity>
+
+
+    </application>
+
+</manifest>

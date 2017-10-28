@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    >
+
+<HorizontalScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:id="@+id/horizontalScrollView">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rootlayout">
+
+        <ImageView android:id="@+id/image"
+            android:layout_width="580dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/hk_map" />
+
+
+        <Button android:id="@+id/btnYauMeTei"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/locked"
+            android:layout_marginTop="593px"
+            android:layout_marginLeft="653px"
+            android:onClick="stage_ymt"
+             />
+        <Button android:id="@+id/btnDisneyland"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/locked"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="170dp"
+            android:onClick="stage_dl"
+            />
+
+        <Button android:id="@+id/btnCausewayBay"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/locked"
+
+            android:onClick="stage_cwb"
+            android:layout_marginTop="650px"
+            android:layout_marginLeft="704px"
+            />
+
+        <Button
+            android:id="@+id/btnMangKok"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/locked"
+
+            android:onClick="stage_mkk"
+            android:layout_marginLeft="643px"
+            android:layout_marginTop="540px"
+           />
+
+        <Button
+            android:id="@+id/btnWangTaiSin"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/locked"
+            android:onClick="stage_wts"
+
+            android:layout_marginLeft="736px"
+            android:layout_marginTop="496px" />
+
+        <Button
+            android:id="@+id/btnCentral"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/locked"
+            android:onClick="stage_ct"
+
+            android:layout_marginLeft="667px"
+            android:layout_marginTop="663px" />
+
+        <Button
+            android:id="@+id/btnTungChung"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/locked"
+            android:onClick="stage_tc"
+
+            android:layout_marginLeft="251px"
+            android:layout_marginTop="645px" />
+
+        <Button
+            android:id="@+id/btnRaceCourse"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/locked"
+            android:onClick="stage_rc"
+
+            android:layout_marginLeft="708px"
+            android:layout_marginTop="391px" />
+
+        <Button
+            android:id="@+id/btnYuenLong"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/locked"
+            android:onClick="stage_yl"
+
+            android:layout_marginLeft="366px"
+            android:layout_marginTop="405px" />
+
+        <Button
+            android:id="@+id/btnDimandHill"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/locked"
+            android:onClick="stage_dh"
+
+            android:layout_marginLeft="800px"
+            android:layout_marginTop="516px" />
+
+        <Button
+            android:id="@+id/btnTsuenWan"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/locked"
+            android:onClick="stage_tw"
+
+            android:layout_marginLeft="356px"
+            android:layout_marginTop="456px" />
+
+
+        <Button
+            android:id="@+id/btnhidestage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/mtr_logo"
+            android:onClick="tohidestage"
+
+            android:layout_marginLeft="550px"
+            android:layout_marginTop="400px" />
+
+
+
+
+
+
+    </RelativeLayout>
+
+</HorizontalScrollView>
+
+</RelativeLayout>
+

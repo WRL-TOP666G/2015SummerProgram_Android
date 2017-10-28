@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string name="menber_1"> story maker : Mo Yating\n
+        creativity director : Lin Ru-Wei\n
+    programer_L : Liao Chen-Yuan \n programer_Y : Yang Jie-Yao</string>
+
+    <string name="test">ffff </string>
+    <string name="action_settings"> setting </string>
+
+    <string name="app_name">HK_Feet</string>
+    <string name="start"> HK_Feet </string>
+    <string name="about_us"> about us </string>
+
+    <string name="hello_world_1">Station_Central!!</string>
+    <string name="hello_world_2">Station_Causeway_Bay!!</string>
+    <string name="hello_world_3">Station_DisneyLand!!</string>
+    <string name="hello_world_4">Station_MongKok!!</string>
+    <string name="hello_world_5">Station_WangTaiSin!!</string>
+    <string name="hello_world_6">Station_YauMeTei!!</string>
+
+    <string name="stage">Stage</string>
+    <string name="stage_1">Chat</string>
+    <string name="about_button">About BMI</string>
+    <string name="about_msg">BMI = Body Mass Index = height(m) / weight(kg) ^ 2; BMI between 20 to 25 is fit.</string>
+    <string name="title_activity_stage_wts">Stage_wts</string>
+    <string name="title_activity_stage_cwb">Stage_cwb</string>
+    <string name="title_activity_stage_ct">About</string>
+    <string name="title_activity_stage_dl">Stage_dl</string>
+    <string name="title_activity_stage_mkk">Stage_mkk</string>
+    <string name="title_activity_stage_ymt">Stage_ymt</string>
+    <string name="title_activity_report_">Report_Activity</string>
+
+
+    <string name="guildtext"> welcome </string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_report">ReportActivity</string>
+    <string name="title_activity_hiding_shoot_stage">Hiding_shoot_stage</string>
+    <string name="title_activity_start">HK_feet</string>
+
+</resources>
